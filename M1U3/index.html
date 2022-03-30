@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV de nombre y apellido</title>
-  </head>
+</head>
 
-  <body>
-    <img src="img/codigo.jpeg" alt="Codigo" /><br />
-    <h1>NOMBRE Y APELLIDO</h1>
-    <input type="text" placeholder="Nombre y Apellido">
-    <h2>Edad</h2>
-    <input type="text" placeholder="Edad" />
-    <h2>Domicilio</h2>
-    <input type="text" placeholder="Domicilio" /><br /><br />
+<body>
+    <header><img src="img/codigo.jpeg" alt="Codigo" /><br /></header>
+    <section>
+        <h1>NOMBRE Y APELLIDO</h1>
+        <input type="text" placeholder="Nombre y Apellido" />
+        <h2>Edad</h2>
+        <input type="text" placeholder="Edad" />
+        <h2>Domicilio</h2>
+        <input type="text" placeholder="Domicilio" /><br /><br />
+        <!--pais-->
+        <label for="pais">Pais</label>
+        <select name="pais" id="">
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Brazil">Brazil</option>
+        </select><br /><br />
+        <!-- Favorito-->
+        <label for="favorito"><b>¿Que lenguaje te gusta mas?</b></label><br />
+        <ul>
+            <li>
+                <input type="radio" name="favorito" value="HTML" />
+                <label for="HTML">HTML</label>
+            </li>
 
-     <!--pais-->
-     <label for="pais">Pais</label>
-     <select name="pais" id="">
-       <option value="Argentina">Argentina</option>
-       <option value="Chile">Chile</option>
-       <option value="Brazil">Brazil</option></select
-     ><br /><br />
-
-    <!-- Favorito-->
-    <label for="favorito"><b>¿Que lenguaje te gusta mas?</b></label><br />
-    <ul>
-      <li>
-        <input type="radio" name="favorito" value="HTML" />
-        <label for="HTML">HTML</label>
-     
-      <li>
-        <input type="radio" name="favorito" value="CSS" />
-        <label for="CSS">CSS</label>
-      </li>
-      <li>
-        <input type="radio" name="favorito" value="javascript" />
-        <label for="Javascript">Javascript</label>
-      </li>
-    </ul>
-
-    <!--Dominio-->
-    <label for="lenguaje"><b>¿Que lenguaje de programacion dominas?</b></label>
-    <ul>
-      <li>
-        <input type="checkbox" name="lenguaje[]" value="HTML" />
-        <label for="HTML">HTML</label>
-      </li>
-      <li>
-        <input type="checkbox" name="lenguaje[]" value="CSS" />
-        <label for="CSS">CSS</label>
-      </li>
-      <li>
-        <input type="checkbox" name="lenguaje[]" value="Javascript" />
-        <label for="Javascript">Javascript</label>
-      </li>
-    </ul>
-
-    <label for="Cualidades"><b>Cualidades:</b></label>
-    <ol>
-        <li>Paciente</li>    
-        <li>Trabajo en equipo</li>
-        <li>Ordenado</li>
-
-    </ol>
-
-       <!--comentario-->
-    <label for="comentario">Deje un comentario</label><br />
-    <textarea name="comentario" id="" cols="30" rows="10"></textarea><br />
-    <!--enviar-->
-    <input type="submit" value="Enviar" />
-    <input type="reset" value="Reset"><br><br>
-
+            <li>
+                <input type="radio" name="favorito" value="CSS" />
+                <label for="CSS">CSS</label>
+            </li>
+            <li>
+                <input type="radio" name="favorito" value="javascript" />
+                <label for="Javascript">Javascript</label>
+            </li>
+        </ul>
+        <!--Dominio-->
+        <label for="lenguaje"><b>¿Que lenguaje de programacion dominas?</b></label>
+        <ul>
+            <li>
+                <input type="checkbox" name="lenguaje[]" value="HTML" />
+                <label for="HTML">HTML</label>
+            </li>
+            <li>
+                <input type="checkbox" name="lenguaje[]" value="CSS" />
+                <label for="CSS">CSS</label>
+            </li>
+            <li>
+                <input type="checkbox" name="lenguaje[]" value="Javascript" />
+                <label for="Javascript">Javascript</label>
+            </li>
+        </ul>
+        <label for="Cualidades"><b>Cualidades:</b></label>
+        <ol>
+            <li>Paciente</li>
+            <li>Trabajo en equipo</li>
+            <li>Ordenado</li>
+        </ol>
+        <!--comentario-->
+        <label for="comentario">Deje un comentario</label><br />
+        <textarea name="comentario" id="" cols="30" rows="10"></textarea><br />
+        <!--enviar-->
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Reset" /><br /><br />
+    </section>
     <!--Link-->
-    <a href="https://www.youtube.com/" target="_blank">Visita Nuestro canal</a>
-  </body>
+    <footer>
+        <a href="https://www.youtube.com/" target="_blank">Visita Nuestro canal</a>
+    </footer>
+</body>
+
 </html>
