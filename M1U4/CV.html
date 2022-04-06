@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <img class="imagen" src="img/header.jpg" alt="Codigo" />
+    </header>
+    <nav class="nav">
+      
+        <a href="index.html">Inicio</a>
+        <a href="Curriculum.html">Curriculum</a>
+        <a href="Nosotros.html">Nosotros</a>
+        <a href="Contactanos.html">Contactanos</a>
+    </nav>
+    <section>
+        <h1>CURRICULUM VITAE</h1>
+        <h2 class="titulos">Nombre y apellido</h2>
+        <input type="text" placeholder="Nombre y Apellido" />
+        <h2 class="titulos">Edad</h2>
+        <input type="text" placeholder="Edad" />
+        <h2 class="titulos">Domicilio</h2>
+        <input type="text" placeholder="Domicilio" /><br /><br />
+        <!--pais-->
+        <label for="pais">Pais</label>
+        <select name="pais" id="">
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Brazil">Brazil</option>
+        </select><br /><br />
+        <!-- Favorito-->
+        <form>
+            <fieldset class="borde">
+                <legend><label class="borde" for="favorito"><b>¿Que lenguaje te gusta mas?</b></label><br /></legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="favorito" value="HTML" />
+                        <label for="HTML">HTML</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="favorito" value="CSS" />
+                        <label for="CSS">CSS</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="favorito" value="javascript" />
+                        <label for="Javascript">Javascript</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+        <!--Dominio-->
+        <form>
+            <fieldset class="borde">
+                <legend><label for="lenguaje"><b>¿Que lenguaje de programacion dominas?</b></label></legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="lenguaje[]" value="HTML" />
+                        <label for="HTML">HTML</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="lenguaje[]" value="CSS" />
+                        <label for="CSS">CSS</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="lenguaje[]" value="Javascript" />
+                        <label for="Javascript">Javascript</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+        <label for="Cualidades"><b>Cualidades:</b></label>
+        <ol>
+            <li>Paciente</li>
+            <li>Trabajo en equipo</li>
+            <li>Ordenado</li>
+        </ol>
+        <!--comentario-->
+        <label for="comentario">Deje un comentario</label><br />
+        <textarea name="comentario" id="" placeholder="Deje un comentario..." cols="30" rows="10"></textarea><br />
+        <!--enviar-->
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Reset" /><br /><br />
+    </section>
+    <!--Link-->
+    <footer>
+        <a href="https://www.youtube.com/" target="_blank">Visita Nuestro canal</a>
+    </footer>
+</body>
+
+</html>

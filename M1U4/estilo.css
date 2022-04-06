@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+}
+
+.nav {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  word-spacing: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: aquamarine;
+  border: 2px solid black;
+  
+}
+
+.titulos {
+  font-size: 25px;
+}
+body {
+  background-color: beige;
+}
+.imagen {
+  width: 100%;
+  height: 300px;
+  margin: 0%;
+  border-radius: 10px;
+}
+
+.borde {
+  width: max-content;
+}
+
+.inicio {
+  font-size: 30px;
+  line-height: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: aquamarine;
+  margin-right: 70%;
+}
