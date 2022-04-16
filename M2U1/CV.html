@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <img class="imagen" src="img/header.jpg" alt="Codigo" />
+    </header>
+    <nav class="nav">
+
+        <a href="index.html">Inicio</a>
+        <a href="Curriculum.html">Curriculum</a>
+        <a href="Nosotros.html">Nosotros</a>
+        <a href="Contactanos.html">Contactanos</a>
+    </nav>
+    <section>
+        <h1>CURRICULUM VITAE</h1>
+        <form class="contenedor">
+            <div class="formulario">
+                <label for="nombre" class="formulario">Nombre y apellido</label>
+                <input type="text" placeholder="Nombre y Apellido" id="nombre" class="campo" />
+            </div>
+            <div class="formulario">
+                <label for="edad" class="formulario">Edad</label>
+                <input type="text" placeholder="Edad" id="edad" class="campo" />
+            </div>
+            <div class="formulario">
+                <label for="domicilio" class="formulario">Domicilio</label>
+                <input type="text" placeholder="Domicilio" id="domicilio" class="campo" />
+            </div>
+            <!--pais-->
+            <div class="formulario">
+                <p>Pais</p>
+                <select name="pais" id="seleccion" class="campo" required>
+                    <option disabled selected value>Selecciona un pais</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Brazil">Brazil</option>
+                </select>
+            </div>
+            <!-- Favorito-->
+
+            <div class="formulario">
+
+                <p>¿Que lenguaje te gusta mas?</p>
+
+                <label>
+                    <input type="radio" name="favorito" value="HTML" class="campo-radio" />
+                    HTML</label>
+
+
+                <label>
+                    <input type="radio" name="favorito" value="CSS" class="campo-radio" />
+                    CSS</label>
+
+                <label>
+                    <input type="radio" name="favorito" value="javascript" class="campo-radio" />
+                    Javascript</label>
+
+
+            </div>
+            <!--Dominio-->
+            <div class="formulario">
+
+                <p>¿Que lenguaje de programacion dominas?</p>
+                <label>
+                    <input type="checkbox" name="lenguaje" value="HTML" class="campo-check" />
+                    HTML</label>
+
+                <label>
+                    <input type="checkbox" name="lenguaje" value="CSS" class="campo-check" />
+                    CSS</label>
+
+                <label>
+                    <input type="checkbox" name="lenguaje" value="Javascript" class="campo-check" />
+                    Javascript</label>
+
+
+            </div>
+            <div class="formulario">
+                <p>Cualidades:</p>
+                <ol>
+                    <li>Paciente</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Ordenado</li>
+                </ol>
+            </div>
+            <!--comentario-->
+            <div class="formulario">
+                <p>Deje un comentario</p>
+                <textarea name="comentario" id="comentario" placeholder="Deje un comentario..." cols="30" rows="10"
+                    class="areatexto"></textarea>
+            </div>
+            <!--enviar-->
+            <div class="formulario">
+                <button type="submit" value="Enviar" class="boton">Enviar</button>
+                <button type="reset" value="Reset" class="boton">Reset</button>
+            </div>
+        </form>
+    </section>
+    <!--Link-->
+    <footer>
+        <a href="https://www.youtube.com/" target="_blank">Visita Nuestro canal</a>
+    </footer>
+</body>
+
+</html>

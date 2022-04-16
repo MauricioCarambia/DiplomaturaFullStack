@@ -8,15 +8,13 @@ h1 {
 .nav {
   margin-top: 20px;
   font-size: 20px;
-  text-align: center;
-  padding: 10px;
   text-transform: uppercase;
-  word-spacing: 60px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: aquamarine;
   border: 2px solid black;
-  
-}
+  display: flex;
+  justify-content: space-evenly;
+  }
 
 .titulos {
   font-size: 25px;
