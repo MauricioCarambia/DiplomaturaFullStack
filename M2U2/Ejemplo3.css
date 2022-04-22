@@ -1,0 +1,32 @@
+.cuadrado-rojo {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  }
+
+.cuadrado-azul {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+}
+
+.cuadrado-verde {
+  background-color: green;
+  width: 250px;
+  height: 250px;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 100%;
+  height: 250px;
+}
+
+p {
+    position: relative;
+  margin: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
