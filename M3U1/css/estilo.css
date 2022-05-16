@@ -98,7 +98,6 @@ main {
     margin: 10px 20px;
     color: darkcyan;
     text-decoration: underline;
-
 }
 
 .textonoticia p {
@@ -107,8 +106,8 @@ main {
 
 .noticia img {
     border-radius: 5px;
-
 }
+/* fin noticias */
 
 /* especialidades */
 .especialidades {
