@@ -1,0 +1,166 @@
+/* .contenedor {
+    max-width: 960px;
+    margin: 0 auto;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: darkcyan;
+    padding-left: 250px;
+    gap: 30px;
+    height: 120px;
+
+}
+
+header .sala {
+    font-style: italic;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    align-items: center;
+}
+
+/* header h4 {
+    font-style: italic;
+    font-size: 13px;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+} */
+
+.imagenlogo {
+    width: 100px;
+    border-radius: 10px;
+    margin: auto 0px;
+}
+
+
+nav ul {
+    display: flex;
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+    color: black;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 6px;
+    display: block;
+    text-align: center;
+
+}
+
+nav ul li a:hover {
+    background-color: darkcyan;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+nav ul li a.activo {
+    background-color: darkcyan;
+    padding: 8px;
+}
+
+main {
+    margin: 10px auto;
+
+}
+
+/* noticias */
+.noticia {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+.textonoticia h3 {
+    margin: 10px 20px;
+    color: darkcyan;
+    text-decoration: underline;
+
+}
+
+.textonoticia p {
+    margin: 10px 20px;
+}
+
+.noticia img {
+    border-radius: 5px;
+
+}
+
+/* especialidades */
+.especialidades {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    width: 1080px;
+    margin: 20px auto;
+  }
+
+.contenedor h1 {
+    margin-left: 300px;
+    font-weight: 100;
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+.especialidades .info h3 {
+    font-style: italic;
+    border-bottom: 1px solid darkcyan;
+    margin: 10px 30px;
+    color: darkcyan;
+}
+
+.especialidades .info p {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.especialidades img {
+    margin: 0 30px;
+    border-radius: 10px;
+    display: block;
+    max-width: 220px;
+    max-height: 150px;
+}
+
+.especialidades:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* fin especialidades */
+footer {
+    background-color: rgb(172, 211, 105);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
