@@ -110,15 +110,15 @@ main {
 
 .telefonos {
     width: 25%;
-   
+
 }
 
 .telefonos h3 {
     background-color: darkcyan;
     margin: 20px 150px 0px 0;
     padding: 20px;
-color: white;
-text-decoration: underline;
+    color: white;
+    text-decoration: underline;
 }
 
 .telefono {
@@ -130,6 +130,7 @@ text-decoration: underline;
 .telefono h4 {
     text-decoration: underline;
 }
+
 .noticia {
     border: 1px solid black;
     border-radius: 5px;
@@ -323,4 +324,13 @@ footer a {
     .columnas {
         display: block;
     }
+
+    .columnas .noticias {
+        min-width: 100%;
+    }
+
+    .columnas .telefonos {
+        min-width: 100%;
+    }
+
 }
