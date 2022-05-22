@@ -1,0 +1,326 @@
+/* .contenedor {
+    max-width: 960px;
+    margin: 0 auto;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+
+.contenedor h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 300px;
+    font-weight: 100;
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    background-color: darkcyan;
+    padding-left: 200px;
+    justify-content: left;
+    gap: 50px;
+    height: 120px;
+
+}
+
+header .cabeza {
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    color: white;
+
+}
+
+header .sala {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+header .atencion {
+    text-align: right;
+    justify-content: right;
+}
+
+.imagenlogo {
+    width: 100px;
+    border-radius: 10px;
+    margin: auto 0px;
+}
+
+/* fin header */
+/* inicio nav */
+nav ul {
+    display: flex;
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+    color: black;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: darkcyan;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+nav ul li a.activo {
+    background-color: darkcyan;
+    padding: 8px;
+}
+
+/* fin nav */
+/* Inicio main */
+main {
+    margin: 10px auto;
+
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* noticias */
+.noticias {
+    width: 75%;
+}
+
+.telefonos {
+    width: 25%;
+   
+}
+
+.telefonos h3 {
+    background-color: darkcyan;
+    margin: 20px 150px 0px 0;
+    padding: 20px;
+color: white;
+text-decoration: underline;
+}
+
+.telefono {
+    padding: 10px 30px;
+    background-color: rgb(187, 185, 185);
+    margin: 0px 150px 0px 0;
+}
+
+.telefono h4 {
+    text-decoration: underline;
+}
+.noticia {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+.textonoticia h3 {
+    margin: 10px 20px;
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+.textonoticia p {
+    margin: 10px 20px;
+}
+
+.noticia img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.imagentel {
+    width: 100%;
+    height: auto;
+}
+
+/* fin noticias */
+
+/* especialidades */
+.especialidades {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    width: 1080px;
+    margin: 20px auto;
+}
+
+.especialidades .info h3 {
+    font-style: italic;
+    border-bottom: 1px solid darkcyan;
+    margin: 10px 30px;
+    color: darkcyan;
+}
+
+.especialidades .info p {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.especialidades img {
+    margin: 0 30px;
+    border-radius: 10px;
+    display: block;
+    max-width: 220px;
+    max-height: 150px;
+}
+
+.especialidades ul li {
+    padding: 5px 0;
+}
+
+.especialidades:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* fin especialidades */
+
+/* Inicio servicios */
+.serviciototal {
+    margin: 30px 100px;
+    display: flex;
+    /* gap: 200px; */
+    justify-content: space-around;
+
+}
+
+.servicio {
+    margin: 0;
+    padding: 20px;
+}
+
+.abecedario {
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: darkcyan;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.servicio ul li {
+    padding: 10px 0px;
+}
+
+.servicio ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.servicio ul li a:hover {
+    background-color: darkcyan;
+    text-decoration: underline white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.derivaciones ul li {
+    margin: 0px 280px;
+    padding: 10px;
+}
+
+
+/* Fin servicios */
+
+
+/* inicio galeria */
+.galeria {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    margin: 0px auto;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria .fotos {
+    padding: 20px;
+    border: 0.5px solid darkcyan;
+    border-radius: 7px;
+}
+
+.galeria .fotos img {
+    width: 300px;
+    padding-bottom: 10px;
+    border-bottom: 0.1em solid gray;
+}
+
+
+/* fin galeria */
+footer {
+    background-color: darkcyan;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .contenedor .columnas {
+        min-width: 100%;
+        display: block;
+    }
+
+    .contenedor .especialidades .info {
+        min-width: 100%;
+    }
+
+    .contenedor h2 {
+        margin: 0px 40px;
+    }
+
+    nav ul {
+        min-width: 100%;
+
+    }
+
+    .serviciototal {
+        min-width: 100%;
+        display: block;
+    }
+
+    .contenedor .derivaciones ul li {
+        margin: 0px 10px;
+
+    }
+
+    .columnas {
+        display: block;
+    }
+}
