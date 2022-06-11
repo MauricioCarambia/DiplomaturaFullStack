@@ -42,8 +42,38 @@
         </ul>
     </nav>
     <main class="contenedor">
-        <!-- foto main -->
-
+        <h2>Contactanos</h2>
+        <div>
+            <form>
+                <div class="formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="nombre" placeholder="Nombre">
+                </div>
+                <div class="formulario">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="apellido" placeholder="Apellido">
+                </div>
+                <div class="formulario">
+                    <p>Eres socio?</p>
+                    <label><input type="radio" name="socio" value="si">Si</label>
+                    <label><input type="radio" name="socio" value="no">No</label>
+                </div>
+                <div class="formulario">
+                    <label for="numero">Numero de socio</label>
+                    <input type="text" class="numero" placeholder="N° Socio">
+                </div>
+                <div class="formulario">
+                    <p>Dejanos un comentario</p>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10"
+                        placeholder="Comentario..."></textarea>
+                </div>
+                <div class="formulario">
+                    <button type="submit" value="enviar">Enviar</button>
+                    <button type="reset" value="reset">Borrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
     <footer class="contenedor">
         <!-- Pie de pagina -->
         <p> Diseñado por Mauricio D. Carambia -&copy;2022</p>
