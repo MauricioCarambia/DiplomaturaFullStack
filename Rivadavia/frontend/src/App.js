@@ -28,8 +28,9 @@ function App() {
           <Route path='llegar' element={<LlegarPage />} />
           <Route path='contactanos' element={<ContactanosPage />} />
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
-      <Footer></Footer>
+    
     </div >
   );
 }

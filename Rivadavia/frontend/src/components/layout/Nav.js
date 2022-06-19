@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../styles/components/layout/Nav.css';
+
 const Nav = (props) => {
     return (
-        <nav className="contenedor">
+        <nav className="navegacion">
             <ul>
                 <li> <Link to="/">Noticias</Link></li>
                 <li> <Link to="/especialidades">Especialidades</Link></li>

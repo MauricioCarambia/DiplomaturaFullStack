@@ -1,0 +1,48 @@
+.pie {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 300px; */
+    padding: 20px 0;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 500px; */
+}
+
+.diseño {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pie .paginas {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes a {
+    text-decoration: none;
+    color: white;
+}
+.redes ul li{
+    padding: 5px 0px;
+}
+
+
+.paginas a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.paginas a:visited {
+    text-decoration: none;
+    color: white;
+}

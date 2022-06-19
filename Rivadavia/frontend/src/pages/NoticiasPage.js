@@ -1,4 +1,6 @@
 import React from "react";
+import "../styles/components/pages/NoticiasPage.css";
+
 const NoticiasPage = (props) => {
   return (
     <main>
@@ -25,7 +27,7 @@ const NoticiasPage = (props) => {
                 </p>
               </div>
             </div>
-<hr></hr>
+            <hr></hr>
             <div className="noticia">
               <img src="https://via.placeholder.com/960x300" alt="" />
               <div className="textonoticia">
@@ -44,7 +46,7 @@ const NoticiasPage = (props) => {
                 </p>
               </div>
             </div>
-<hr></hr>
+            <hr></hr>
             <div className="noticia">
               <img src="https://via.placeholder.com/960x300" alt="" />
               <div className="textonoticia">
@@ -64,7 +66,6 @@ const NoticiasPage = (props) => {
               </div>
             </div>
           </section>
-<hr></hr>
           <section className="telefonos">
             <h3>Nuestros telefonos</h3>
             <div className="telefono">

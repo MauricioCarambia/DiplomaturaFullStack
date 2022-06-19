@@ -1,0 +1,49 @@
+.especialidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    width: 1000px;
+    margin: 0px auto;
+
+}
+
+.especialidades {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10px 0px;
+    background-color: rgb(186, 252, 230);
+}
+
+.especialidades .info h3 {
+    font-style: italic;
+    border-bottom: 1px solid rgb(1, 2, 2);
+    margin: 10px 30px;
+    color: darkcyan;
+}
+
+.especialidades .info p {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.especialidades img {
+    margin: 10px 30px;
+    border-radius: 10px;
+    /* display: block; */
+    max-width: 220px;
+    max-height: 220px;
+}
+
+.especialidades ul li {
+    padding: 5px 0;
+    
+}
+
+.especialidades:nth-child(even) {
+    flex-direction: row-reverse;
+
+}

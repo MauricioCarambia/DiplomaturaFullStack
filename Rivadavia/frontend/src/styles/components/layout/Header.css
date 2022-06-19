@@ -1,0 +1,32 @@
+.cabecera {
+    display: flex;
+    background-color: darkcyan;
+    padding-left: 200px;
+    justify-content: left;
+    gap: 50px;
+    height: 120px;
+
+}
+
+.cabeza {
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    color: white;
+}
+
+.sala {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.atencion {
+    text-align: right;
+    justify-content: right;
+}
+
+.imagenlogo {
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px 0px;
+} 
