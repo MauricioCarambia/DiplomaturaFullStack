@@ -31,6 +31,25 @@ const NoticiasPage = (props) => {
             <div className="noticia">
               <img src="https://via.placeholder.com/960x300" alt="" />
               <div className="textonoticia">
+                <h3>Noticia 1</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Recusandae eius reiciendis ipsam amet eum ex hic facere
+                  facilis excepturi numquam, ipsa iusto fugit, dicta nobis minus
+                  exercitationem harum iste! Et.
+                </p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Perferendis quaerat quos tempore sequi inventore quo culpa
+                  facere. Similique, dolore enim ab illo qui eligendi et
+                  incidunt dicta commodi laboriosam adipisci.
+                </p>
+              </div>
+            </div>
+            <hr></hr>
+            <div className="noticia">
+              <img src="https://via.placeholder.com/960x300" alt="" />
+              <div className="textonoticia">
                 <h3>Noticia 2</h3>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
