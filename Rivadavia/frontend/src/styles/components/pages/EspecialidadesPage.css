@@ -1,11 +1,10 @@
 .especialidad {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;  
-    width: 1000px;
+    justify-content: space-around;
+    /*align-items: center;
+        /* width: 1000px; */
     margin: 0px auto;
-
+    flex-wrap: wrap;
 }
 
 .especialidades {
@@ -14,6 +13,7 @@
     border-radius: 10px;
     align-items: center;
     margin: 10px 0px;
+    width: 700px;
     background-color: rgb(186, 252, 230);
 }
 
@@ -40,7 +40,7 @@
 
 .especialidades ul li {
     padding: 5px 0;
-    
+
 }
 
 .especialidades:nth-child(even) {

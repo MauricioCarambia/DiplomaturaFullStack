@@ -20,7 +20,7 @@ const ServiciosPage = (props) => {
                         </div>
                         <div className="servicioinfo">
                             <ul>
-                                <li><a href="especialidades.html#gastro">Alergista</a></li>
+                                <li><a href="EspecialidadesPage.js#alergista">Alergista</a></li>
                             </ul>
                         </div>
                         <div className="abecedario">
@@ -62,6 +62,7 @@ const ServiciosPage = (props) => {
                         <div className="servicioinfo">
                             <ul>
                                 <li><a href="especialidades.html#gastro">Fonoaudiologia</a></li>
+                                <li><a href="especialidades.html#gastro">Flebologia</a></li>
                             </ul>
                         </div>
                     </div>
@@ -108,7 +109,9 @@ const ServiciosPage = (props) => {
                         <div className="servicioinfo">
                             <ul>
                                 <li><a href="especialidades.html#gastro">Odontologia</a></li>
+                                <li><a href="especialidades.html#gastro">Oftalmologia</a></li>
                                 <li><a href="especialidades.html#gastro">Otorrinolaringologia</a></li>
+                                <li><a href="especialidades.html#gastro">Otomisiones</a></li>
                                 <li><a href="especialidades.html#gastro">Osteopatia</a></li>
                                 <li><a href="especialidades.html#gastro">Obstetricia</a></li>
                             </ul>
