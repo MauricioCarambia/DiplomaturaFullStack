@@ -1,0 +1,117 @@
+/* .contenedor {
+    max-width: 960px;
+    margin: 0 auto;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+
+.contenedor h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 300px;
+    font-weight: 100;
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    background-color: darkcyan;
+    padding-left: 200px;
+    justify-content: left;
+    gap: 50px;
+    height: 120px;
+
+}
+
+header .cabeza {
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    color: white;
+
+}
+
+header .sala {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+header .atencion {
+    text-align: right;
+    justify-content: right;
+}
+
+.imagenlogo {
+    width: 100px;
+    border-radius: 10px;
+    margin: auto 0px;
+}
+
+.contenedor .campo {
+    text-align: center;
+    width: 900px;
+    margin: 10px;
+}
+
+footer {
+    background-color: darkcyan;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .contenedor .columnas {
+        min-width: 100%;
+        display: block;
+    }
+
+    .contenedor .especialidades .info {
+        min-width: 100%;
+    }
+
+    .contenedor h2 {
+        margin: 0px 40px;
+    }
+
+    nav ul {
+        min-width: 100%;
+
+    }
+
+    .serviciototal {
+        min-width: 100%;
+        display: block;
+    }
+
+    .contenedor .derivaciones ul li {
+        margin: 0px 10px;
+
+    }
+
+    .columnas {
+        display: block;
+    }
+
+    .columnas .noticias {
+        min-width: 100%;
+    }
+
+    .columnas .telefonos {
+        min-width: 100%;
+    }
+
+}
